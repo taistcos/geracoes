@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+	function pulaLinha (){
+		document.write("<br><br>");
+	}
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var ano=2021
+	var chegadaPortugueses=1500
+	var paternidade=28
+	var mediaGeracoes=(ano-chegadaPortugueses)/paternidade
+
+	mostra("<h1>"+"Média das gerações da chegada dos portugueses até hoje"+"</h1>");
+	mostra("A média das gerações brasileiras desde a chegada dos portugueses, levando em consideração que um casal tem filhos aos 28 anos é de " + Math.round(mediaGeracoes) + " gerações ate hoje!");
+
+</script>
